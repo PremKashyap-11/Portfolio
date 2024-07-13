@@ -230,6 +230,10 @@ text-align: left;
     background: var(--snd-bg-color);
 }
 
+.portfolio h2{
+    margin-bottom: 4rem;
+}
+
 .portfolio-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -242,6 +246,7 @@ text-align: left;
     border-radius: 2rem;
     box-shadow: 0 0 3rem var(--bg-color);
     display: flex;
+    overflow: hidden;
 }
 
 .portfolio-box img{
